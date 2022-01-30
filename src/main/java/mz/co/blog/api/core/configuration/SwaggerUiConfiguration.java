@@ -1,4 +1,4 @@
-package com.framework.digital.frame.blog.core.configuration;
+package mz.co.blog.api.core.configuration;
 
 import com.fasterxml.classmate.TypeResolver;
 import org.springframework.context.annotation.Bean;
@@ -37,7 +37,7 @@ public class SwaggerUiConfiguration {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("Faruque Braimo", "", "faruquebraimo@gmail.com");
+        Contact contact = new Contact("Faruque Braimo", "", "fbraimo@gmail.com");
         return new ApiInfo(
                 "BLOG API Documentation",
                 "",

@@ -1,4 +1,4 @@
-package com.framework.digital.frame.blog.core.configuration;
+package mz.co.blog.api.core.configuration;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

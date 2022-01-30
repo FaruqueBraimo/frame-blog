@@ -1,4 +1,4 @@
-package com.framework.digital.frame.blog;
+package mz.co.blog.api.blog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

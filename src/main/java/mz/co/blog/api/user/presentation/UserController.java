@@ -18,6 +18,7 @@ import javax.validation.Valid;
 @RestController
 @Api(tags = "User Management")
 @RequestMapping(path = "/api/v1/users", name = "users")
+@CrossOrigin("*")
 @RequiredArgsConstructor
 public class UserController {
     private final UserService userService;

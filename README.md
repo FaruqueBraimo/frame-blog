@@ -31,7 +31,7 @@ Foi usado o `flyway db` é uma ferramenta que se permite garantir a ordem e orga
 
 ## Como executar?
 
-- Criar um banco de dados postgree frame_blog com { username : postgres, password : 1234 }
+- Criar um banco de dados com nome postgree frame_blog com { username : postgres, password : 1234 }
 - `cd blog-api`
 - `mvnw clean install -DskipTests`
 - `java -jar target/blog-api-0.0.1-SNAPSHOT.jar`

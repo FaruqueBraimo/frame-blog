@@ -2,7 +2,7 @@
 API de blog da Framework Digital
 
 
-# BLOG API
+## REST API
 
 Desenvolvida usando spring-boot e PostgreSQL.
 
@@ -48,3 +48,14 @@ Poderá encontrar uma documentação mais interativa da API no endereço `http:/
 - `docker run -d -p 8080:8080 api/blog-api`
 
 Permite executar criando um container docker
+
+
+## Front End
+
+- Segue o link de uma pequena implementacao de algumas funcionalidades da API 
+- [App em Angular](https://github.com/FaruqueBraimo/frame-blog-front-end)
+
+
+
+
+

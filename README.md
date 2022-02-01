@@ -53,7 +53,7 @@ Permite executar criando um container docker
 ## Front End
 
 - Segue o link de uma pequena implementacao de algumas funcionalidades da API 
--- [App em Angular](https://github.com/FaruqueBraimo/frame-blog-front-end)
+- [App em Angular](https://github.com/FaruqueBraimo/frame-blog-front-end)
 
 
 

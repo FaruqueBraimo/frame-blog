@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 @RestController
 @Api(tags = "AUTH", description = "Request endpoints", authorizations = {})
-@CrossOrigin
+@CrossOrigin(value = "*")
 @RequestMapping("api/v1/auth")
 public class AuthController {
     private final AuthenticationService authenticationService;
@@ -26,6 +26,7 @@ public class AuthController {
     public AuthTokenDto createToken(@RequestBody @Validated AuthLoginRequest request) {
         return authenticationService.createToken(request);
     }
+
 
 
     @GetMapping("/me")

@@ -18,7 +18,7 @@ import javax.validation.Valid;
 
 @RestController
 @Api(tags = "Post Management")
-@RequestMapping(path = "/api/v1/posts", name = "countries")
+@RequestMapping(path = "/api/v1/posts", name = "posts")
 @RequiredArgsConstructor
 public class PostController {
     private final PostService postService;
